@@ -2,10 +2,9 @@ body {
     background-color: rgb(71, 138, 202);
 }
 
-img {
+.prime {
     height: auto;
     width: 600px;
-    object-position: center top;
 }
 
 h1,
@@ -13,15 +12,22 @@ ul {
     font-family: Verdana, "Times New Roman", sans-serif;
 }
 
-h1 {
+#main {
     background-color: black;
     color: red;
     text-align: center;
     font-size: 40px;
+    font-style: italic;
 }
 
-ul {
+.li {
     background-color: yellow;
     color: red;
     font-size: 30px;
+}
+
+.first,
+.third {
+    background-color: blueviolet;
+    color: wheat;
 }
