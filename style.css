@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(71, 138, 202);
+}
+
+img {
+    height: auto;
+    width: 600px;
+    object-position: center top;
+}
+
+h1,
+ul {
+    font-family: Verdana, "Times New Roman", sans-serif;
+}
+
+h1 {
+    background-color: black;
+    color: red;
+    text-align: center;
+    font-size: 40px;
+}
+
+ul {
+    background-color: yellow;
+    color: red;
+    font-size: 30px;
+}
