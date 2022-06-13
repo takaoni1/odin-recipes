@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #9572aa;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1,
+h2 {
+  margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.navbar {
+    color: rgb(237, 237, 237);
+    height: 80px;
+}
+
+.navbar .logo {
+    font-size:xx-large;
+    font-weight: bold;
+    line-height: 2;
+}
+
+.navbar a {
+    color: rgb(5, 5, 5);
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+.navbar a:hover {
+    color: orange;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  background-color: #9572aa;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+}
+
+.header {
+    background: #5b9aa0;
+    color: rgb(3, 3, 3);
+    min-height: 400px;
+    text-align: center;
+    font-size: 30px;
+    margin: 10px 15px;
+    padding: 10px 10px;
+}
+
+.header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    padding-right: 10px;
+
+}
+
+.header .intro {
+    padding-right: 10px;
+}
+  
+.header img {
+    max-width: 500px;
+    margin: 30px 0px;
+    
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.boxes a {
+    color: rgb(5, 5, 5);
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.boxes a:hover {
+    color: orange;
+}
+
+.boxes img {
+    max-width: 350px;
+    border-radius: 10px;
+    width:  250px;
+    height: 250px;
+    object-fit:cover;
+}
+
+.boxes .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    flex: auto;
+    background: #fff;
+    color: rgb(9, 8, 8);
+    border-radius: 10px;
+    margin: 20px 10px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+    padding: 15px 20px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .header .container {
+      flex-direction: column;
+      padding-top: 20px;
+      text-align: center;
+    }
+  
+    .boxes .container {
+      display: block;
+      text-align: center;
+    }
+  }
+  

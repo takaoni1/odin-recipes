@@ -4,23 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Odin Recipes Project</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
-
-<body>
-    <div class="top-navigation-main">
-        <div class="home"><a href="./index.html">Home</a></div>
-        <div class="recipes">Recipes</div>
-        <div class="blog">Blog</div>
-        <div class="subscribe">Subscribe</div>
+<navbar class="navbar">
+    <div class="container">
+        <div class="logo">The Odin Project - PP</div>
+        <ul class="nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">All Recipes</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Subscribe</a></li>
+        </ul>
     </div>
-    <h1 id="main">Odin's Favorite Food Recipes</h1>
-    <img src="./img/new-front.jpg" alt="The Odin Recipes Project" class="prime">
-    <ul class="links-list">
-        <li><a href="./recipes/garlic-shrimp-kabobs.html" target="_blank">Garlic Shrimp Kabobs Recipe</a></li>
-        <li><a href="./recipes/boozy-banana-bread.html" target="_self">Boozy Banana Bread Recipe</a></li>
-        <li><a href="./recipes/lemon-icebox-pie.html" target="_blank">Lemon Icebox Pie Recipe</a></li>
-    </ul>
+</navbar>
+<header class="header">
+    <div class="container">
+        <div>
+            <h1>Odin's Recipes  Personal Project</h1>
+            <p class="intro">Here you can find some of the best recipes in the world!</p>
+        </div>
+            <img src="./img/header.jpg" alt="header-recipes">
+        </div>
+</header>
+<body>
+    <div class="boxes">
+        <div class="container">
+            <div class="box">
+                <h3><a href="./recipes/boozy-banana-bread.html">Boozy Banana Bread</a></h3>
+                <img src="./img/low-cake.png" alt="boozy banana cake - low pic">
+                <p>It's time to let those bananas brown and bake a loaf of this Boozy Banana Bread! It's an incredibly easy, super tasty loaf that's loaded with bananas, pineapple, dark rum and topped with pecans and the creamiest cream cheese frosting ever!</p>
+            </div>
+
+            <div class="box">
+                <h3><a href="./recipes/garlic-shrimp-kabobs.html">Garlic Shrimp Kabobs</a></h3>
+                <img src="./img/low-shrimp.png" alt="garlic shrimp kabobs - low pic">
+                <p>This is a quick and easy shrimp kabob recipe, perfect for beginners. Requires minimal ingredients, but is bursting with flavor. Serve over a bed of rice with fresh lemon wedges.</p>
+            </div>
+
+            <div class="box">
+                <h3><a href="./recipes/lemon-icebox-pie.html">Lemon Icebox Pie</a></h3>
+                <img src="./img/low-pie.png" alt="lemon icebox pie - low pic">
+                <p>Fluffy, creamy and tangy—and super cooling on a hot summer afternoon. It's hard to beat the appeal of this old-fashioned Lemon Icebox Pie</p>
+            </div>
+        </div>
+    </div>
 </body>
-</html> 
+</html>
